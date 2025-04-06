@@ -1,0 +1,11 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../../../assets/img/iced-coffee-bg.jpg') center/cover;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h1, .hero p {
+    margin: 0;
+}

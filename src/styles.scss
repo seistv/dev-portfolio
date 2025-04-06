@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+/* Navbar dark override */
+.dark-mode .navbar {
+    background-color: #1a1a1a !important;
+}
+
+/* Fix Footer Position */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
