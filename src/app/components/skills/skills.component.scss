@@ -1,0 +1,26 @@
+.circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+/* Define colors */
+.very-confident {
+  background-color: #28a745; /* green */
+}
+
+.confident {
+  background-color: #17a2b8; /* blue-ish */
+}
+
+.good-enough {
+  background-color: #ffc107; /* yellow */
+}
+
+.basic {
+  background-color: #6c757d; /* gray */
+}
