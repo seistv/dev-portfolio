@@ -1,3 +1,11 @@
-.about:hover {
-    transform: scale(1.05);
+p {
+    font-size: 18px;
 }
+
+.rounded-image {
+    border-radius: 100%; 
+    width: 200px; 
+    height: 200px; 
+    object-fit: scale-down; 
+    box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+} 

@@ -1,0 +1,27 @@
+.sm a{
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: #2c3e50;
+	margin: 0 6px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	font-size: 22px;
+    text-decoration: none;
+	-webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sm a img{
+	transition: 0.4s all;
+}
+
+.sm a:hover{
+	background: #fff;	
+}
+
+.sm a:hover > img {
+	transform: scale(1.6) rotate(25deg);
+}
